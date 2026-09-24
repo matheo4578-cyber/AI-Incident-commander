@@ -1,0 +1,9 @@
+{
+  "Entries": [
+    {
+      "Source": "incident.commander",
+      "DetailType": "Incident Report",
+      "Detail": "{\"service\":\"checkout-api\",\"title\":\"Elevated checkout errors\",\"description\":\"Error rate exceeded the synthetic alert threshold\",\"logs\":[\"ERROR upstream timeout after deployment v42\"],\"metrics\":{\"error_rate\":0.18,\"latency_ms\":920}}"
+    }
+  ]
+}

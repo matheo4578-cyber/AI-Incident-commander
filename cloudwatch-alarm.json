@@ -1,0 +1,10 @@
+{
+  "source": "aws.cloudwatch",
+  "detail-type": "CloudWatch Alarm State Change",
+  "detail": {
+    "alarmName": "checkout-errors",
+    "state": {"value": "ALARM", "reason": "Error rate exceeded 20%"},
+    "configuration": {"metrics": []}
+  },
+  "resources": ["arn:aws:cloudwatch:us-east-1:123456789012:alarm:checkout-errors"]
+}
