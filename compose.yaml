@@ -1,0 +1,10 @@
+services:
+  incident-commander:
+    build: .
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      LLM_MODE: ${LLM_MODE:-deterministic}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+    restart: unless-stopped
